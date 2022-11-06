@@ -6,7 +6,6 @@ import android.content.Intent
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
@@ -31,7 +30,7 @@ class LoginActivity : AppCompatActivity() {
     private var isSignedIn = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        val splashScreen = installSplashScreen()
+        installSplashScreen()
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_login)
 
@@ -86,7 +85,6 @@ class LoginActivity : AppCompatActivity() {
     private fun handleResult(task: Task<GoogleSignInAccount>) {
         if (task.isSuccessful){
             val account : GoogleSignInAccount? = task.result
-            Log.d("Login","$account")
             if (account != null) {
                 updateUI(account)
             }

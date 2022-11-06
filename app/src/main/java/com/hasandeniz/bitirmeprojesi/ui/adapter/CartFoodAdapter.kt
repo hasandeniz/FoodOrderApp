@@ -40,10 +40,12 @@ class CartFoodAdapter(var mContext: Context, var cartFoodList:List<CartFood>, va
         }
 
         binding.ibIncreaseCartOrderNumber.setOnClickListener {
+            binding.ibIncreaseCartOrderNumber.isEnabled = false
             viewModel.increaseCartOrderNumber(food)
         }
 
         binding.ibDecreaseCartOrderNumber.setOnClickListener {
+            binding.ibDecreaseCartOrderNumber.isEnabled = false
             viewModel.decreaseCartOrderNumber(food)
         }
 

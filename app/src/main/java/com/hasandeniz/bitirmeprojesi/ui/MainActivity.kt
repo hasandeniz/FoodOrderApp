@@ -18,14 +18,12 @@ class MainActivity : AppCompatActivity(),BottomNavVisibilityManager {
     private lateinit var navController : NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        val splashScreen = installSplashScreen()
+        installSplashScreen()
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         navController = Navigation.findNavController(this, R.id.fragmentContainerView)
         setupWithNavController(binding.bottomNav,navController)
-
-
 
     }
 
