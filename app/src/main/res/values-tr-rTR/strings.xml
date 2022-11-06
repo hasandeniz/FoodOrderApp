@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food Center</string>
+    <string name="sign_in_with_google">Google ile Giriş Yapın</string>
+    <string name="in_order_to_use_food_center_please_sign_in_with_your_google_account">Food Center\'ı kullanabilmek için lütfen Google hesabınızla giriş yapın.</string>
+    <string name="welcome_to_food_center">Food Center\'a hoşgeldiniz</string>
+    <string name="cart">Sepet</string>
+    <string name="welcome">Hoşgeldiniz!</string>
+    <string name="action_sign_in_short">Giriş yap</string>
+    <string name="action_sign_in">Giriş yap ya da Kayıt ol</string>
+    <string name="prompt_password">Şifre</string>
+    <string name="prompt_email">Email</string>
+    <string name="hello_blank_fragment">Merhaba boş fragment</string>
+    <string name="invalid_username">Geçersiz kullanıcı adı</string>
+    <string name="invalid_password">Şifre 5 karakterden fazla olmalıdır</string>
+    <string name="login_failed">Giriş başarısız</string>
+    <string name="total_items">Toplam Ürün</string>
+    <string name="shipping">Kurye Bedeli</string>
+    <string name="total_cost">Toplam Tutar</string>
+    <string name="checkout">Ödeme Yap</string>
+    <string name="your_cart_is_empty">Sepetiniz Boş</string>
+    <string name="your_order_is_on_the_way_to_you">Siparişiniz yola çıktı</string>
+    <string name="back_to_main_screen">Ana Ekrana Dön</string>
+    <string name="details">Detaylar</string>
+    <string name="add_to_cart">Sepete Ekle</string>
+    <string name="order">Sipariş Ver</string>
+    <string name="profile">Profil</string>
+    <string name="logout">Hesaptan Çıkış Yap</string>
+    <string name="_5">5₺</string>
+</resources>

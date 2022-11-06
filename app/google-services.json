@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "840197626787",
+    "project_id": "inviobitirmeprojesi-367417",
+    "storage_bucket": "inviobitirmeprojesi-367417.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840197626787:android:f73101ee764df57de25816",
+        "android_client_info": {
+          "package_name": "com.hasandeniz.bitirmeprojesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840197626787-ui32f71uqicdcoff7vaf2bqect2pr2eu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hasandeniz.bitirmeprojesi",
+            "certificate_hash": "36f993445b5dee9765a8062b43ecea1c183de8c7"
+          }
+        },
+        {
+          "client_id": "840197626787-kkluips2tfuputdu296rn3hkpbkhaj65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgFpU4nh69VI90LijgQzQFoREBV9D9IcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840197626787-kkluips2tfuputdu296rn3hkpbkhaj65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
