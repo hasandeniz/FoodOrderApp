@@ -1,4 +1,4 @@
-# FoodCenter
+# Food Center
 
 ## Description
 
