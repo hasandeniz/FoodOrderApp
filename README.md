@@ -19,16 +19,11 @@ The app includes the following features:
 To use the app, follow these steps:
 
 1. Open the app on your Android device.
-
 2. Login using your Google account.
-
 3. Browse the menu to find dishes you want to order.
-
 4. Add dishes to your cart.
-
 5. Edit your cart as needed.
-
-8. Use the search feature to find dishes by name or keyword.
+6. Use the search feature to find dishes by name or keyword.
 
 ## Demonstration
 
@@ -43,11 +38,8 @@ https://github.com/hasandeniz/FoodOrderApp/assets/37264787/173f0b1b-7545-45f3-9c
 To install and run the app, follow these steps:
 
 1. Clone or download the project code from the repository.
-
 2. Open the project in Android Studio.
-
 3. Find and include the Google Services JSON file for Firebase Authentication. (Instructions on how to obtain this file can be found in the Firebase Console documentation.)
-
 4. Build and run the app on an Android emulator or device.
 
 
